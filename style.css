@@ -1,0 +1,49 @@
+/* style */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+img{
+    width: 200px;
+}
+*, *::after, *::before{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to top right, red, yellow);
+}
+.tabs{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    margin: 10px;
+}
+.links{
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Audiowide', cursive;
+    font-size: 10;
+}
+.links:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+}
+a{
+    color: #000000;
+    font-family: 'Audiowide', cursive;
+    font-size: 10;
+}
+button{
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
